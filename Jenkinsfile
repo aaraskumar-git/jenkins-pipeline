@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-      IMAGE_NAME = "homakiran4/welcome-container:latest"
+      IMAGE_NAME = "welcome-container:v1_03102025"
       KUBE_CONFIG = "/var/lib/jenkins/.kube/config"
   }
   stages {
